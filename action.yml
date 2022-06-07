@@ -8,7 +8,7 @@ inputs:
     required: true
     default: "World"
   MY_LAST_NAME:
-    description: "Who to greet"
+    description: "last name"
     required: true
     default: "World"
 
