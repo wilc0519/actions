@@ -9,6 +9,6 @@ jobs:
       - uses: actions/checkout@v1
       - uses: ./
         with:
-          MY_NAME: ${{ secrets.MY_LAST_NAME}}
-          SURNAME: ${{ secrets.MY_LAST_NAME}}
-        
+          MY_NAME: ${{ secrets.MY_NAME}}
+          LAST_NAME: ${{ secrets.MY_LAST_NAME}}
+
