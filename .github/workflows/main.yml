@@ -10,5 +10,5 @@ jobs:
       - uses: ./
         with:
           MY_NAME: ${{ secrets.MY_NAME}}
-          LAST_NAME: ${{ secrets.MY_LAST_NAME}}
+          MY_LAST_NAME: ${{ secrets.MY_LAST_NAME}}
 
