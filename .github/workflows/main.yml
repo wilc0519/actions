@@ -6,6 +6,12 @@ jobs:
     name: Hello world action
     runs-on: ubuntu-latest
     steps:
+      - name: Test
+         run: |
+           if [ "$MY_LAST_NAME" == "Lopez" ]
+           then
+              echo "Got secret"
+           fi
       - uses: actions/checkout@v1
       - uses: ./
         with:
