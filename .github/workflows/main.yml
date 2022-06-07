@@ -11,7 +11,4 @@ jobs:
         with:
           MY_NAME: ${{ secrets.MY_LAST_NAME}}
           SURNAME: ${{ secrets.MY_LAST_NAME}}
-          if[ "MY_LAST_NAME" -eq "Lopez" ]
-          then
-             echo "Got secret"
-             fi
+
